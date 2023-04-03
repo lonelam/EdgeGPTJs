@@ -1,6 +1,6 @@
 {
   "name": "edgegptjs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -33,5 +33,9 @@
     "tough-cookie": "^4.1.2",
     "uuid": "^9.0.0",
     "ws": "^8.13.0"
+  },
+  "files": ["lib", "cli"],
+  "bin":{
+    "edgegptjs": "lib/index.js"
   }
 }
