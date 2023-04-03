@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { ArgumentParser } from 'argparse';
 import * as fs from 'fs';
 import { main } from './main'; // Assuming the 'main' function is exported from the 'main.ts' file

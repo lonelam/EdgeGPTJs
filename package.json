@@ -1,6 +1,6 @@
 {
   "name": "edgegptjs",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "tsc",
     "start": "node lib/index.js"
   },
-  "keywords": [],
+  "keywords": ["New Bing", "Bing New", "ChatGPT", "CLI"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
