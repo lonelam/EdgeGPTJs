@@ -1,9 +1,10 @@
 # EdgeGPTJs
 
 [![npm version](https://img.shields.io/npm/v/edgegptjs)](https://www.npmjs.com/package/edgegptjs)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 <!-- [![Build Status](https://img.shields.io/github/workflow/status/lonelam/EdgeGPTJs/CI)](https://github.com/lonelam/EdgeGPTJs/actions) -->
 <!-- [![Code Coverage](https://img.shields.io/codecov/c/github/lonelam/EdgeGPTJs)](https://codecov.io/gh/lonelam/EdgeGPTJs) -->
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 <img src="docs/edgegptjs.png" alt="EdgeGPTJs Logo" width="200" height="200"/>
 
