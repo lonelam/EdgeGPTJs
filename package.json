@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node src/index.ts",
     "build": "tsc",
-    "start": "node lib/index.js"
+    "start": "chmod +x lib/index.js && ./lib/index.js"
   },
   "keywords": ["New Bing", "Bing New", "ChatGPT", "CLI"],
   "author": "",
