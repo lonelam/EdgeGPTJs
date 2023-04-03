@@ -50,3 +50,9 @@ export const HEADERS_INIT_CONVER = {
     "x-edge-shopping-flag": "1",
     "x-forwarded-for": FORWARDED_IP,
 }
+
+export enum ConversationStyle {
+    creative = "h3relaxedimg",
+    balanced = "galileo",
+    precise = "h3precise"
+}
