@@ -65,3 +65,4 @@ export enum ConversationStyle {
   balanced = 'galileo',
   precise = 'h3precise',
 }
+export type ConversationStyleEnumType = keyof typeof ConversationStyle;
