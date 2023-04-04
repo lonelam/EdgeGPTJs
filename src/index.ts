@@ -2,7 +2,7 @@
 import { ArgumentParser } from 'argparse';
 import * as fs from 'fs';
 import { main } from './main'; // Assuming the 'main' function is exported from the 'main.ts' file
-
+export { Chatbot } from './chathub/ChatBot';
 console.log(`
     EdgeGPTJs - A demo of reverse engineering the Bing GPT chatbot
     Repo: github.com/lonelam/EdgeGPTJs

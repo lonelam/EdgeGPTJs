@@ -27,20 +27,26 @@ Welcome to EdgeGPTJs, a Node.js package inspired by the Python version [EdgeGPT]
 - Highly customizable and extendable
 
 ## Prompt Tool Usage
-
-```bash
+use ENVIRONMENT_VARIABLE to pass cookie jar file.
+```
+export COOKIE_FILE=/path/to/cookie.json
 npx edgegptjs
+```
+or use 
+```bash
+npx edgegptjs --cookie-file=cookie.json
 ```
 
 ## Library Usage
 
-To get started with EdgeGPTJs, import the package and create a new instance:
+To get started with EdgeGPTJs, import the package and create a new instance of `Chatbot`:
 
 ```javascript
-const EdgeGPTJs = require('edgegptjs');
-const edgeGPT = new EdgeGPTJs();
-
-// Start using the package
+const { Chatbot } = require('edgegptjs');
+const bot = new Chatbot(args.cookiePath);
+await bot.chatHubInitialization;
+const response = await bot.ask("What's the result of 1+1?");
+console.log(`Bot: ${response}`);
 ```
 
 For a detailed explanation of the API and available methods, please refer to the [documentation](https://github.com/lonelam/EdgeGPTJs/wiki).
