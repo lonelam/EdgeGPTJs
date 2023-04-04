@@ -34,7 +34,7 @@
     "uuid": "^9.0.0",
     "ws": "^8.13.0"
   },
-  "files": ["lib", "cli"],
+  "files": ["lib", "cli", "README.md", "README.zh-CN.md"],
   "bin":{
     "edgegptjs": "lib/index.js"
   }
