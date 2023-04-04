@@ -32,10 +32,10 @@
 - 高度可定制和可扩展
 
 ## 路线图
-[x] CLI工具演示
-[x] 可导出的npm包API
-[] 一键远程部署，灵感来源于[ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
-[] 与[ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)集成
+- [x] CLI工具演示
+- [x] 可导出的npm包API
+- [ ] 一键远程部署，灵感来源于[ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
+- [ ] 与[ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)集成
 
 ## 要求
 

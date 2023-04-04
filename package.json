@@ -1,6 +1,6 @@
 {
   "name": "edgegptjs",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -9,7 +9,12 @@
     "start": "chmod +x lib/index.js && ./lib/index.js"
   },
   "keywords": ["New Bing", "Bing New", "ChatGPT", "CLI"],
-  "author": "",
+  "author": "laizn<laizenan@gmail.com>",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/lonelam/EdgeGPTJs"
+  },
+  "homepage": "https://github.com/lonelam/EdgeGPTJs",
   "license": "ISC",
   "devDependencies": {
     "@types/argparse": "^2.0.10",
@@ -34,7 +39,7 @@
     "uuid": "^9.0.0",
     "ws": "^8.13.0"
   },
-  "files": ["lib", "cli", "README.md", "README.zh-CN.md"],
+  "files": ["lib", "cli", "docs", "README.md", "README.zh-CN.md"],
   "bin":{
     "edgegptjs": "lib/index.js"
   }
