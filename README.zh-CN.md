@@ -18,8 +18,8 @@
   - [特性](#特性)
   - [路线图](#路线图)
   - [要求](#要求)
-    - [检查访问（必需）](#检查访问必需)
-    - [获取授权（必需）](#获取授权必需)
+    - [检查访问权限（必需）](#检查访问权限必需)
+    - [获取身份验证（必需）](#获取身份验证必需)
   - [提示工具使用](#提示工具使用)
   - [库使用](#库使用)
   - [贡献](#贡献)
@@ -41,36 +41,32 @@
 
 - 具有对 https://bing.com/chat 的早期访问权限的 Microsoft 帐户（必需）
 - 在支持的国家/地区具有 New Bing（需要中国大陆 VPN）
-
-### 检查访问（必需）
-
-  </summary>
-
-- 安装最新版的微软 Edge 浏览器
-- 或者，您可以使用任何浏览器，并将用户代理设置为看起来像您正在使用 Edge（例如， `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51`）。您可以使用“User-Agent Switcher and Manager”扩展或[Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg)和[Firefox](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)浏览器中的类似扩展轻松实现此操作。
-- 打开[bing.com/chat](https://bing.com/chat)
-- 如果您看到聊天功能，则可以继续进行
-
-</details>
-
-<details>
-  <summary>
-
-### 获取授权（必需）
-
-  </summary>
-
-- 为[Chrome](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)或[Firefox](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)安装“Cookie Editor”扩展。
-- 进入 `bing.com`
-- 打开扩展程序
-- 单击右下角的“导出”，然后单击“导出为 JSON”（这将您的 cookie 保存到剪贴板中）
-- 将 cookie 粘贴到名为 `cookies.json` 的文件中
-
-</details>
-
-<details>
+### 检查访问权限（必需）
 
 <summary>
+  <details>
+  
+- 安装最新版本的Microsoft Edge
+- 或者，您可以使用任何浏览器，并将用户代理设置为仿照Edge（例如，`Mozilla/5.0（Windows NT 10.0; Win64; x64）AppleWebKit/537.36（KHTML，like Gecko）Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51`）。您可以使用“User-Agent Switcher and Manager”这种扩展轻松完成这项操作，适用于[Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg)和[Firefox](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)。
+- 打开[bing.com/chat](https://bing.com/chat)
+- 如果您看到了聊天功能，则说明一切正常
+
+  </details>
+</summary>
+
+### 获取身份验证（必需）
+
+<summary>
+  <details>
+  
+- 为[Chrome](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)或者[Firefox](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)安装Cookie编辑器扩展
+- 进入`bing.com`
+- 打开扩展
+- 单击右下角的“导出”，然后单击“导出为JSON”（此操作可以将您的cookie保存至剪贴板）
+- 将您的cookies粘贴到`cookies.json`文件中
+
+  </details>
+</summary>
 
 ## 提示工具使用
 使用 ENVIRONMENT_VARIABLE 传递 cookie jar 文件
