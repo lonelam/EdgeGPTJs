@@ -1,5 +1,5 @@
 # EdgeGPTJs
-
+English | [简体中文](./README.zh-CN.md)
 [![npm version](https://img.shields.io/npm/v/edgegptjs)](https://www.npmjs.com/package/edgegptjs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -15,6 +15,7 @@ Welcome to EdgeGPTJs, a Node.js package inspired by the Python version [EdgeGPT]
 - [EdgeGPTJs](#edgegptjs)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
+  - [Roadmap](#roadmap)
   - [Requirements](#requirements)
     - [Checking access (Required)](#checking-access-required)
     - [Getting authentication (Required)](#getting-authentication-required)
@@ -28,6 +29,12 @@ Welcome to EdgeGPTJs, a Node.js package inspired by the Python version [EdgeGPT]
 - Reverse engineer the chat feature of the new version of Bing
 - Easy-to-use API with thorough documentation
 - Highly customizable and extendable
+
+## Roadmap
+[x] CLI tools by demo
+[x] exportable api by npm package
+[] one-click remote deployment inspired by [ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
+[] integrate it with [ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
 
 ## Requirements
 - A Microsoft Account with early access to https://bing.com/chat (Required)
