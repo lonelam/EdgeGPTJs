@@ -1,6 +1,6 @@
 {
   "name": "edgegptjs",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -41,6 +41,6 @@
   },
   "files": ["lib", "cli", "docs", "README.md", "README.zh-CN.md"],
   "bin":{
-    "edgegptjs": "lib/index.js"
+    "edgegptjs": "lib/cli.js"
   }
 }
